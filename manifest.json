@@ -1,0 +1,32 @@
+{
+  "name": "Checkin Google Classroom",
+  "description": "Use checkin option on google classroom",
+  "version": "0.1",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://classroom.google.com/"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "/images/check-mark16.png",
+      "32": "/images/check-mark32.png",
+      "48": "/images/check-mark48.png",
+      "128": "/images/check-mark128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/check-mark16.png",
+    "32": "/images/check-mark32.png",
+    "48": "/images/check-mark48.png",
+    "128": "/images/check-mark128.png"
+  }
+}
